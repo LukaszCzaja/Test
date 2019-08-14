@@ -14,5 +14,7 @@ int dodawanie()
 
 int odejmowanie()
 {
-	return COS.B - COS.A;
+	double result = COS.B - COS.A;
+	result = (int) result;
+	return result;
 }
