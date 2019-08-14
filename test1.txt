@@ -3,7 +3,10 @@ TCos tworzenieCos()
 	if (cos == NULL)
 	{
 		cos = new TCos();
-	}	
+	} else
+	{
+		System.out.println("test");
+	}
 }
 
 int dodawanie()
