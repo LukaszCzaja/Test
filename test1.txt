@@ -14,5 +14,10 @@ int dodawanie()
 
 int odejmowanie()
 {
-	return COS.B - COS.A;
+	int wynik = 0;
+	for (int i = 0; i < COS.Ilosc; i++)
+	{
+		wynik = COS.B - COS.A;
+	}
+	return wynik;
 }
