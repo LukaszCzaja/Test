@@ -1,1 +1,17 @@
-thjasfg5643djhasdkasjdalk
+TCos tworzenieCos()
+{
+	if (cos == NULL)
+	{
+		cos = new TCos();
+	}	
+}
+
+int dodawanie()
+{
+	return COS.A + COS.B;
+}
+
+int odejmowanie()
+{
+	return COS.B - COS.A;
+}
