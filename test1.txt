@@ -8,7 +8,8 @@ TCos tworzenieCos()
 
 int dodawanie()
 {
-	return COS.A + COS.B;
+	int result = COS.A * COS.B
+	return (double) result;
 }
 
 int odejmowanie()
